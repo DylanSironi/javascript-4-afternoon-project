@@ -125,9 +125,11 @@ function Employee(name, email, hireDate) {
   }
 
   User.prototype.addSavedPost = function(id, title, rating){
-   this.savedPosts.push( {id, title, rating})
+   this.savedPosts.push({id, title, rating})
 
   }
+
+  
 
   ////////// PROBLEM 6 //////////
   
